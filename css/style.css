@@ -470,3 +470,56 @@ section{
 .timeline-text{
     text-align: justify;
 }
+
+.service .container{
+    padding-bottom: 40px;
+}
+.service-item{
+    margin-bottom: 30px;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.service-item .service-item-inner{
+    background-color: var(--bg-black-02);
+    border: 1px solid var(--bg-black-03);
+    border-radius: 15px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.service-item .service-item-inner:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.service-item .service-item-inner .icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 20px;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.service-item .service-item-inner .icon .fa{
+    font-size: 25px;
+    line-height: 40px;
+    color: var(--skin-color);
+}
+
+.service-item .service-item-inner:hover .icon{
+    background-color: var(--skin-color);
+}
+.service-item .service-item-inner:hover .icon .fa{
+    font-size: 20px;
+    color: white;
+}
+.service-item .service-item-inner h4{
+     font-size: 18px;
+     margin-bottom: 15px;
+     color: var(--text-color-01);
+     line-height: 25px;
+}
+
+
+
